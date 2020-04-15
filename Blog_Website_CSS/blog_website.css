@@ -1,0 +1,1128 @@
+/* Mobile Specs */
+
+.container2 {
+    display: grid;
+    background-size: cover;
+    background-color: #e9e9e9;
+    border: 10px solid black;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-template-rows:  220px 140px 110px 200px;
+    grid-template-columns:140px 140px 140px 140px ;
+    grid-template-areas:
+                         "hd hd hd hd"
+                         "sec sec art art"
+                         "sec sec art art"
+                         "sec sec art art"
+                         "sec sec asi asi"
+                         "in in asi asi"
+                         "in in asi asi";
+    grid-gap: 10px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+}
+
+.header {
+    margin-top: 10px;
+    grid-area: hd;
+    font-size: 590%;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 70px;
+    background-color: #e9e9e9;
+}
+
+.section {
+    grid-area: sec;
+    background-image: url('../Images/ronnie.jpg');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: none;
+    background-color: #cce6ff;
+    margin-bottom: 10px;
+}
+}
+
+.info {
+    grid-area: in;
+    border: none;
+    padding: 2px 16px;
+    font-family: "Lucida Console", Courier, monospace;
+    color: blue;
+}
+
+.article   {
+    grid-area: art;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    background-color: #e9e9e9;
+    color: black;
+    background-image: url('../Images/santiago.webp');
+    border: none;
+    border-radius: 1px;
+}
+
+.stadium {
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 100%;
+    font-size: 50%;
+}
+
+.aside {
+    grid-area: asi;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration:
+    color: black;
+}
+
+div {
+    border: 6px solid black;
+    border-radius: 160px;
+    background-color: #e9e9e9;
+}
+}
+
+.container {
+    display: grid;
+    background-size: cover;
+    background-color: #e9e9e9;
+    border: 6px solid black;
+    justify-content: space-evenly;
+    grid-template-rows: 200px 110px 110px 110px 110px 180px;
+    grid-template-columns: 770px 70px 70px 70px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    grid-template-areas:
+                        "bx bx bx bx"
+                        "pl pl sp sp"
+                        "lf lf trv trv"
+                        "fsh fsh mus mus"
+                        "fd fd fit fit ";
+    text-align: center;
+    height: 80%;
+    width: 100%;
+    grid-gap: 60px;
+}
+
+.box {
+    grid-area: bx;
+    margin-top: 20px;
+    color: black;
+    font-size: 200%;
+}
+
+.politics{
+    grid-area: pl;
+    background-image: url('../Images/laliga.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.sports {
+    grid-area: sp;
+    background-image:url('../Images/premierleague.jpg');
+    background-size: cover;
+    text-align: center;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.life {
+    grid-area: lf;
+    background-image: url('../Images/ronaldo.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.travel {
+    grid-area: trv;
+    background-image: url('../Images/ligue1.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.fashion {
+    grid-area: fsh;
+    background-image: url('../Images/bundesliga.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.music {
+    grid-area: mus;
+    background-image: url('../Images/porto.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.food {
+    grid-area: fd;
+    background-image: url('../Images/america.jfif');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.fitness{
+grid-area: fit;
+background-image: url('../Images/mls.jpg');
+background-size: cover;
+font-size: 240%;
+color: #ffffff;
+font-weight: 900;
+text-shadow: 0px 0px 3px #000;
+background-position: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    width: 1100%;
+}
+
+a {
+    width: 100%;
+    border:none;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+/* Tablet */
+
+@media (min-width:768px) and (max-width:1023px) {
+.container2 {
+    display: grid;
+    background-size: cover;
+    border: 10px solid black;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-template-rows: 200px 110px 110px 110px 150px 150px;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-areas:
+                       "hd hd hd hd  "
+                       "sec sec art art"
+                       "sec sec art art"
+                       "sec sec art art"
+                       "sec sec art art"
+                       "in in asi asi"
+                       "in in asi asi";
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    margin-top: 10px;
+    grid-area: hd;
+    font-size: 590%;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section {
+    grid-area: sec;
+    background-image: url('../Images/ronnie.jpg');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: none;
+    background-color: #cce6ff;
+    margin-bottom: 10px;
+}
+
+.info {
+    grid-area: in;
+    border: none;
+    font-family: "Lucida Console", Courier, monospace;
+    color: blue;
+}
+
+.article {
+    grid-area: art;
+    font-size: 230%;
+    text-align: center;
+    justify-content: center;
+
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 1px;
+    background-image: url('../Images/santiago.webp');
+}
+
+.stadium {
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 100%;
+    font-size: 50%;
+}
+
+.aside {
+    grid-area: asi;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 60px;
+
+}
+
+div{
+  border: 6px solid black;
+  border-radius: 160px;
+}
+}
+
+.container {
+    display: grid;
+    background-size: cover;
+    border: 6px solid black;
+    justify-content: space-evenly;
+    grid-template-rows: 200px 110px 110px 110px 110px 110px;
+    grid-template-columns: 70px 70px 70px 70px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    grid-template-areas:
+                         "bx bx bx bx"
+                         "pl pl sp sp"
+                         "lf lf trv trv"
+                         "fsh fsh mus mus"
+                         "fd fd fit fit";
+    text-align: center;
+    height: 80%;
+    width: 100%;
+    grid-gap: 60px;
+}
+
+.box {
+    grid-area: bx;
+    margin-top: 20px;
+    color: black;
+    font-size: 200%;
+}
+
+.politics {
+    grid-area: pl;
+    background-image: url('../Images/laliga.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.sports {
+    grid-area: sp;
+    background-image:url('../Images/premierleague.jpg');
+    background-size: cover;
+    text-align: center;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.life {
+    grid-area: lf;
+    background-image: url('../Images/ronaldo.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.travel {
+    grid-area: trv;
+    background-image: url('../Images/ligue1.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.fashion {
+    grid-area: fsh;
+    background-image: url('../Images/bundesliga.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.music {
+    grid-area: mus;
+    background-image: url('../Images/porto.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.food {
+    grid-area: fd;
+    background-image: url('../Images/america.jfif');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.fitness{
+    grid-area: fit;
+    background-image: url('../Images/mls.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+/* Laptop/Computer Specs */
+@media (min-width:1024px) and (max-width:1439px) {
+.container2 {
+    display: grid;
+    background-size: cover;
+    border: 10px solid black;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-template-rows: 200px 110px 110px 110px 130px 130px;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-areas:
+                        "hd hd hd hd"
+                        "sec sec art art"
+                        "sec sec art art"
+                        "sec sec art art"
+                        "sec sec art art"
+                        "in in asi asi"
+                        "in in asi asi";
+    grid-gap: 10px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    margin-top: 10px;
+    grid-area: hd;
+    font-size: 590%;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section {
+    grid-area: sec;
+    background-image: url('../Images/ronnie.jpg');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: none;
+    background-color: #cce6ff;
+    margin-bottom: 10px;
+}
+
+.info {
+    grid-area: in;
+    border: none;
+    font-family: "Lucida Console", Courier, monospace;
+    color: blue;
+}
+
+.article {
+    grid-area: art;
+    font-size: 230%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 1px;
+    background-image: url('../Images/santiago.webp');
+}
+
+.stadium {
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 100%;
+    font-size: 40%;
+}
+
+.aside {
+    grid-area: asi;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+
+
+.container {
+    display: grid;
+    background-size: cover;
+    border: 6px solid black;
+    justify-content: space-evenly;
+    grid-template-rows: 200px 110px 110px 110px 110px 110px;
+    grid-template-columns: 70px 70px 70px 70px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    grid-template-areas:  "bx bx bx bx"
+                          "pl pl sp sp"
+                          "lf lf trv trv"
+                          "fsh fsh mus mus"
+                          "fd fd fit fit";
+    text-align: center;
+    height: 80%;
+    width: 100%;
+    grid-gap: 60px;
+}
+
+.box {
+    grid-area: bx;
+    margin-top: 20px;
+    color: black;
+    font-size: 200%;
+}
+
+.politics {
+    grid-area: pl;
+    background-image: url('../Images/laliga.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.sports {
+    grid-area: sp;
+    background-image:url('../Images/premierleague.jpg');
+    background-size: cover;
+    text-align: center;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.life {
+    grid-area: lf;
+    background-image: url('../Images/ronaldo.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.travel {
+    grid-area: trv;
+    background-image: url('../Images/ligue1.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.fashion {
+    grid-area: fsh;
+    background-image: url('../Images/bundesliga.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.music {
+    grid-area: mus;
+    background-image: url('../Images/porto.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 90;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.food {
+    grid-area: fd;
+    background-image: url('../Images/america.jfif');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 90;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.fitness{
+    grid-area: fit;
+    background-image: url('../Images/mls.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 90;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+}
+
+/* Larger screen specs */
+@media (min-width:1440px) and (max-width:2559px) {
+.container2 {
+    display: grid;
+    background-size: cover;
+    border: 10px solid black;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-template-rows: 200px 110px 110px 110px 130px 130px;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-areas:
+                        "hd hd hd hd  "
+                        "sec sec art art"
+                        "sec sec art art"
+                        "sec sec art art"
+                        "sec sec art art"
+                        "in in asi asi"
+                        "in in asi asi";
+    grid-gap: 10px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    margin-top: 10px;
+    grid-area: hd;
+    font-size: 590%;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section {
+    grid-area: sec;
+    background-image: url('../Images/ronnie.jpg');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: none;
+    background-color: #cce6ff;
+    margin-bottom: 10px;
+}
+
+.info {
+    grid-area: in;
+    border: none;
+    font-family: "Lucida Console", Courier, monospace;
+    color: blue;
+}
+
+
+.article {
+    grid-area: art;
+    font-size: 230%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url('../Images/santiago.webp');
+}
+
+.stadium {
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 100%;
+    font-size: 50%;
+}
+
+.aside {
+    grid-area: asi;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+div {
+    border: 6px solid black;
+    border-radius: 160px;
+}
+
+.container {
+    display: grid;
+    background-size: cover;
+    border: 6px solid black;
+    justify-content: space-evenly;
+    grid-template-rows: 200px 110px 110px 110px 110px 110px;
+    grid-template-columns: 70px 70px 70px 70px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    grid-template-areas:  "bx bx bx bx"
+                          "pl pl sp sp"
+                          "lf lf trv trv"
+                          "fsh fsh mus mus"
+                          "fd fd fit fit";
+    text-align: center;
+    height: 80%;
+    width: 100%;
+    grid-gap: 60px;
+}
+
+.box {
+    grid-area: bx;
+    margin-top: 20px;
+    color: black;
+    font-size: 200%;
+}
+
+.politics {
+    grid-area: pl;
+    background-image: url('../Images/laliga.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.sports {
+    grid-area: sp;
+    background-image:url('../Images/premierleague.jpg');
+    background-size: cover;
+    text-align: center;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.life {
+    grid-area: lf;
+    background-image: url('../Images/ronaldo.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.travel {
+    grid-area: trv;
+    background-image: url('../Images/ligue1.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.fashion {
+    grid-area: fsh;
+    background-image: url('../Images/bundesliga.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.music {
+    grid-area: mus;
+    background-image: url('../Images/porto.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.food {
+    grid-area: fd;
+    background-image: url('../Images/america.jfif');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.fitness {
+    grid-area: fit;
+    background-image: url('../Images/mls.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+.footer {
+width: 1500%;
+}
+}
+
+@media (min-width:2560px)  {
+.container2 {
+    display: grid;
+    background-size: cover;
+    border: 10px solid black;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-template-rows: 200px 110px 110px 110px 130px 130px;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-areas:
+                        "hd hd hd hd  "
+                        "sec sec art art"
+                        "sec sec art art"
+                        "sec sec art art"
+                        "sec sec art art"
+                        "in in asi asi"
+                        "in in asi asi";
+    grid-gap: 10px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    margin-top: 10px;
+    grid-area: hd;
+    font-size: 590%;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section {
+    grid-area: sec;
+    background-image: url('../Images/ronnie.jpg');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: none;
+    background-color: #cce6ff;
+    margin-bottom: 10px;
+}
+
+.info {
+    grid-area: in;
+    border: none;
+    font-family: "Lucida Console", Courier, monospace;
+    color: blue;
+}
+
+
+.article {
+    grid-area: art;
+    font-size: 230%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 1px;
+    background-image: url('../Images/santiago.webp');
+}
+
+.aside {
+    grid-area: asi;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.stadium {
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 100%;
+    font-size: 100%;
+}
+
+div {
+    border: 6px solid black;
+    border-radius: 160px;
+}
+
+.container {
+    display: grid;
+    background-size: cover;
+    border: 6px solid black;
+    justify-content: space-evenly;
+    grid-template-rows: 200px 110px 110px 110px 110px 110px;
+    grid-template-columns: 70px 70px 70px 70px;
+    margin-top: 15px;
+    margin-bottom: 80px;
+    grid-template-areas:  "bx bx bx bx"
+                          "pl pl sp sp"
+                          "lf lf trv trv"
+                          "fsh fsh mus mus"
+                          "fd fd fit fit";
+    text-align: center;
+    height: 80%;
+    width: 100%;
+    grid-gap: 60px;
+}
+
+.box {
+    grid-area: bx;
+    margin-top: 20px;
+    color: black;
+    font-size: 200%;
+}
+
+.politics{
+    grid-area: pl;
+    background-image: url('../Images/laliga.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.sports {
+    grid-area: sp;
+    background-image:url('../Images/premierleague.jpg');
+    background-size: cover;
+    text-align: center;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.life {
+    grid-area: lf;
+    background-image: url('../Images/ronaldo.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.travel {
+    grid-area: trv;
+    background-image: url('../Images/ligue1.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.fashion {
+    grid-area: fsh;
+    background-image: url('../Images/bundesliga.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.music {
+    grid-area: mus;
+    background-image: url('../Images/porto.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 90;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.food {
+    grid-area: fd;
+    background-image: url('../Images/america.jfif');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 90;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.fitness {
+    grid-area: fit;
+    background-image: url('../Images/mls.jpg');
+    background-size: cover;
+    font-size: 240%;
+    color: #ffffff;
+    font-weight: 90;
+    text-shadow: 0px 0px 3px #000;
+    background-position: center;
+}
+
+.footer {
+width: 68vw;
+}
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+}
+
+.topnav button {
+    border: 2px solid black;
+    padding: 6px 50px;
+    color: #fff;
+    font-weight: 200;
+    cursor: pointer;
+    background-color: black;
+}
+
+.topnav a {
+    margin-bottom: 10px;
+    color: black;
+    justify-content: stretch;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 10;
+    padding: 14px;
+ }
+
+ .topnav input[type=text] {
+    border: 1px solid #ccc;
+ }
+
+ .fa a{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+ .fa:hover {
+   opacity: 0.7;
+ }
+
+ .fa-facebook {
+    background: #3B5998;
+    color: white;
+    float: right;
+ }
+
+ .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-tumblr {
+    background: #2c4762;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#zoom:hover {
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+figcaption {
+    font-size: 140%;
+}
+img {
+  background-image: url('../Images/santiago.webp');
+}
